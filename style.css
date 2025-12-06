@@ -1,0 +1,244 @@
+.titre {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 60px;
+    padding-bottom: 0;
+    color: #3a7afe;
+    font-family: monospace;
+    font-size: 40px;
+}
+.bloca{
+   min-height: 60vh;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   padding-top: 50px;
+   z-index: 10;
+}
+.bloca::before{
+    content: '';
+    background-image: url('./PHOTO/Bannière\ 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background: rgba(0, 0, O, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.35;
+    z-index: -1;
+}
+#body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a7afe;
+    z-index: 1000;
+    font-family: poppins;
+}
+.logo img{
+    width:  50px;
+    height: auto;
+    margin-left: 15px;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    margin-top: 0;
+
+}
+
+body{
+    margin: 0;
+}
+
+hr{
+    height: 3px;
+    border: none;
+    background-color: red;
+    width: 70px;
+    padding-top: 0;
+}
+.SERVICE {
+  background-color: #3a7afe;
+  padding-top:0;
+  margin-top: 0;
+  padding-bottom: 25px;
+  padding-right: 0;
+}
+.SERVICE h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.solutions {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.chatbot {
+    border: solid 2px;
+    border-radius: 15px;
+    margin: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+.chatbot h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+.chatbot p {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   font-weight: bold; 
+   color: #ffffff;
+}
+
+.chatbot ul{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.chatbot a{
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3;
+    box-shadow: 0 6px 10px rgba(0, 0, O, 0.7);
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.chatbot a:hover {
+    background-color: red;
+    box-shadow: 0 6px 10px rgba(0, 0, O, 0.7);
+    transform: translateY(-5px);
+}
+
+
+.site {
+    border: solid 2px;
+    border-radius: 15px;
+    margin: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    
+}
+
+.site h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+
+.site p {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   font-weight: bold; 
+   color: #ffffff;
+}
+
+.site ul{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+
+.site a{
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.site a:hover {
+    background-color: red;
+    box-shadow: 0 6px 10px rgba(0, 0, O, 0.7);
+    transform: translateY(-5px);
+}
+
+.moi {
+    background-color: beige;
+    padding: 10px;
+}
+
+.moi #profil {
+    text-align: center;
+}
+.moi #profil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    border: solid 2px #3a7afe;
+}
+
+.moi h2{
+    text-align: center;
+    color: #3a7afe;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 0;
+}
+.moi p{
+    font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   font-weight: bold; 
+   color:  #ffffff;
+   justify-content: space-between;
+}
+
+#moi {
+    border:solid 3px red;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #3a7afe;
+    border-radius: 15px;
+}
+.moi ul li {
+    font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+   font-weight: bold; 
+   color:  #ffffff;
+   justify-content: space-between;
+}
